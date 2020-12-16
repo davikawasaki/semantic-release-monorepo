@@ -1,0 +1,37 @@
+{
+  "name": "semantic-release-monorepo-with-lerna",
+  "version": "0.0.0-development",
+  "description": "Management release for monorepo using semantic releases",
+  "main": "index.js",
+  "scripts": {
+    "commit": "git-cz",
+    "postinstall": "lerna bootstrap",
+    "presemantic-release": "EXPORT GH_TOKEN 1382740c4af0769173db8f0708bc9a0149f51e50",
+    "semantic-release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davikawasaki/semantic-release-monorepo-with-lerna.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davikawasaki/semantic-release-monorepo-with-lerna/issues"
+  },
+  "homepage": "https://github.com/davikawasaki/semantic-release-monorepo-with-lerna#readme",
+  "devDependencies": {
+    "@commitlint/cli": "11.0.0",
+    "@commitlint/config-conventional": "11.0.0",
+    "@commitlint/prompt": "11.0.0",
+    "@semantic-release/commit-analyzer": "8.0.1",
+    "@semantic-release/github": "7.2.0",
+    "@semantic-release/npm": "7.0.9",
+    "@semantic-release/release-notes-generator": "9.0.1",
+    "commitizen": "4.2.2",
+    "git-cz": "4.7.6",
+    "husky": "4.3.6",
+    "lerna": "3.22.1",
+    "semantic-release": "17.3.0",
+    "semantic-release-monorepo": "7.0.3"
+  }
+}
