@@ -1,6 +1,6 @@
 {
   "name": "app",
-  "version": "1.2.0-dev.3",
+  "version": "1.2.0",
   "description": "> TODO: description",
   "author": "Davi Kawasaki <davishinjik@gmail.com>",
   "homepage": "https://github.com/davikawasaki/semantic-release-monorepo-with-lerna/tree/master/packages/app#readme",
