@@ -5,5 +5,5 @@ const app = require('..');
 describe('app', () => {
     it('needs tests');
     it('REALLY needs tests');
-    it('testing realase of new needs tests');
+    it('testing release of new needs tests');
 });
