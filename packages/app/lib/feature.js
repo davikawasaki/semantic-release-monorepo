@@ -2,4 +2,4 @@
 
 const greeting = require('lib')
 
-console.log(greeting("New subfeature"))
+console.log(greeting("Old subfeature"))
