@@ -24,6 +24,6 @@
     "url": "https://github.com/davikawasaki/semantic-release-monorepo-with-lerna/issues"
   },
   "dependencies": {
-    "lib": "3.0.0-dev.1"
+    "lib": "3.0.0"
   }
 }
