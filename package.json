@@ -6,7 +6,7 @@
   "scripts": {
     "commit": "git-cz",
     "postinstall": "lerna bootstrap",
-    "semantic-release": "GH_TOKEN=dd8b32810c51651aa1d35f00f5848ba8ac60c173 lerna exec --concurrency 1 -- npx --no-install semantic-release -e semantic-release-monorepo --no-ci"
+    "semantic-release": "lerna exec --concurrency 1 -- npx --no-install semantic-release -e semantic-release-monorepo --no-ci"
   },
   "repository": {
     "type": "git",

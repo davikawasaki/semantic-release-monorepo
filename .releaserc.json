@@ -1,5 +1,8 @@
 {
-  "branches": ["main", "release"],
+  "branches": [
+    { "name": "main", "prerelease": "dev" },
+    { "name": "release" }
+  ],
   "extends": "semantic-release-monorepo",
   "plugins": [
     "@semantic-release/commit-analyzer",
