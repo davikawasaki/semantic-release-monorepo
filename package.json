@@ -6,6 +6,7 @@
   "scripts": {
     "commit": "git-cz",
     "postinstall": "lerna bootstrap",
+    "presemantic-release": "npm i",
     "semantic-release": "lerna exec --concurrency 1 -- npx --no-install semantic-release -e semantic-release-monorepo --no-ci"
   },
   "repository": {
